@@ -1,19 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home</title>
+  <link rel="stylesheet" href="../home.css" />
 </head>
-<body>
-    <nav>
-        <ul>
-            <li>login</li>
-            <li><a href="./pages/home.html">Home</a></li>
-            <li><a href="./profile.html">Profile</a></li>
-        </ul>
-    </nav>
-    <h1>Home</h1>
-    <img src ="../images/figure.png" alt=""/>
+<body class="home-body">
+  <header class="page-header">
+    <h1>Welcome to the Home Page</h1>
+  </header>
+
+  <nav class="main-nav">
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="./profile.html">Profile</a></li>
+    </ul>
+  </nav>
+
+  <main class="home-content">
+    <img src="../../images/logo.jpg" alt="NBA Logo" class="main-logo" />
+
+    <p class="description">
+      Bienvenido a esta página inspirada en la NBA. <br />
+      Lorem ipsum <strong>dolor</strong> sit amet consectetur 
+      adipisicing elit. Perspiciatis assumenda, molestias 
+      incidunt explicabo.
+    </p>
+  </main>
 </body>
 </html>
